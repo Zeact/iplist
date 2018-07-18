@@ -1,0 +1,98 @@
+server:
+##NXDOMAIN 
+#CTC
+	private-address: 60.191.124.236
+	private-address: 60.191.124.252
+	
+##Google
+forward-zone:
+	name: "google.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "googleapis.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "gstatic.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "ggpht.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "googleusercontent.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "gvt1.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "gvt2.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "gvt3.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "youtube.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "ytimg.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "googlevideo.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "youtube-nocookie.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "2mdn.net"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "gmail.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "appspot.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "ampproject.org"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "gmodules.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "googlehosted.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "app-measurement.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "youtu.be"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "google.cl"
+	forward-addr: 192.168.1.5
+
+
+
+
+#G other Country	
+forward-zone:
+	name: "google.com.hk"
+	forward-addr: 192.168.1.5
+
+# Other	
+forward-zone:
+	name: "wikipedia.org"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "steamcommunity.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "twitter.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "instagram.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "facebook.com"
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "a-msedge.net"
+	forward-addr: 192.168.1.5
