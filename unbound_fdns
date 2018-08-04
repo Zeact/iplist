@@ -1,4 +1,20 @@
+#server:
+#local-data: "tracker.totheglory.im  A 107.161.164.36"
+
+
 server:
+local-zone: "1.com" redirect
+local-data: "1.com A 192.168.1.54"
+local-zone: "pt.enfinix.com" redirect
+local-data: "pt.enfinix.com A 192.168.1.7"
+local-zone: "ac.enfinix.com" redirect
+local-data: "ac.enfinix.com A 192.168.1.9"
+
+##
+#local-zone: "images-na.ssl-images-amazon.com" redirect
+#local-data: "images-na.ssl-images-amazon.com CNAME images-cn.ssl-images-amazon.com"
+
+
 ##NXDOMAIN 
 #CTC
 	private-address: 60.191.124.236
@@ -7,66 +23,109 @@ server:
 ##Google
 forward-zone:
 	name: "google.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
+	forward-addr: 192.168.1.5
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "googleapis.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "gstatic.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "ggpht.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "googleusercontent.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "gvt1.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "gvt2.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "gvt3.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "youtube.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "ytimg.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "googlevideo.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "youtube-nocookie.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "2mdn.net"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "gmail.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "appspot.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "ampproject.org"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "gmodules.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "googlehosted.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "app-measurement.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "youtu.be"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "google.cl"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 
 
@@ -75,24 +134,69 @@ forward-zone:
 #G other Country	
 forward-zone:
 	name: "google.com.hk"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 
 # Other	
 forward-zone:
 	name: "wikipedia.org"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "steamcommunity.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "twitter.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "twimg.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "edgecastcdn.net"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "ecdns.net"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
+	forward-addr: 192.168.1.5
+forward-zone:
+	name: "edgecastdns.net"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "instagram.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "facebook.com"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
 forward-zone:
 	name: "a-msedge.net"
+	forward-addr: 8.8.8.8
+	forward-addr: 8.8.4.4
 	forward-addr: 192.168.1.5
+	forward-addr: 192.168.1.5
+
+#forward-zone:
+#	name: "amazon.com"
+#	forward-addr: 202.101.172.46
+#forward-zone:
+#	name: "ssl-images-amazon.com"
+#	forward-addr: 202.101.172.46
+#forward-zone:
+#	name: "media-amazon.com"
+#	forward-addr: 202.101.172.46
