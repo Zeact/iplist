@@ -3,12 +3,7 @@
 
 
 server:
-local-zone: "1.com" redirect
-local-data: "1.com A 192.168.1.54"
-local-zone: "pt.enfinix.com" redirect
-local-data: "pt.enfinix.com A 192.168.1.7"
-local-zone: "ac.enfinix.com" redirect
-local-data: "ac.enfinix.com A 192.168.1.9"
+
 
 ##
 #local-zone: "images-na.ssl-images-amazon.com" redirect
